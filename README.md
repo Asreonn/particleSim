@@ -322,11 +322,34 @@ This simulation captures real-world behaviors:
 - Pygame 2.0.0+
 - NumPy 1.20.0+
 
-### **Quick Start**
+### **Method 1: Clone from GitHub (Recommended)**
+```bash
+# Clone the repository
+git clone https://github.com/Asreonn/particleSim.git
+cd particleSim
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the simulation
+python simulator.py
+```
+
+### **Method 2: Download ZIP**
+1. Go to [https://github.com/Asreonn/particleSim](https://github.com/Asreonn/particleSim)
+2. Click the green "Code" button
+3. Select "Download ZIP"
+4. Extract the ZIP file
+5. Open terminal in the extracted folder
+6. Install dependencies: `pip install pygame numpy`
+7. Run: `python simulator.py`
+
+### **Method 3: Manual Setup**
 ```bash
 # Install dependencies
 pip install pygame numpy
 
+# Download files manually and place in a folder
 # Run the simulation
 python simulator.py
 ```
